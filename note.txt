@@ -1,0 +1,45 @@
+  <section class="lg:py-40">
+        
+            <div
+            class="text-center opacity-100 bg-black lg:py-40"
+            style="background-image: url(img/person-2.png); background-repeat: no-repeat; background-position: center;" >
+            <div class="hero-overlay bg-opacity-90"></div>
+            <div class="hero-content text-neutral-content text-center">
+              <div class="">
+                <h1 class="mb-5 lg:text-4xl md:text-3xl text-xl font-bold ">Denny Fernandez Lead Software <br> Developer based on German</h1>
+                <p class="mb-5">
+                  Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                  quasi. In deleniti eaque aut repudiandae et a id nisi.
+                </p>
+                <button class="btn btn-primary">Get Started</button>
+              </div>
+            </div>
+          </div>
+          </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="card">
+           <div class="">
+            <img class="md:ml-8 ml-4" src="img/01.svg" alt="img">
+           </div>
+            <div class="card-body">
+                <h2 class="card-title">Digital Product Design</h2>
+              <p class="text-gray-500">Creating a higher spacing and how <br> people move through a unique.</p>
+              <div class="card-actions justify-start">
+                <a href="#" class="font-bold hover:bg-transparent hover:text-[#EBB884]">Buy Now <i class="fa-solid fa-arrow-trend-up"></i></a>
+              </div>
+            </div>
+          </div>
