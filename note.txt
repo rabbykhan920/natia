@@ -19,6 +19,23 @@
 
 
 
+           <div class="card">
+          <figure>
+            <img
+              src="img/blog-05.jpg"
+              alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Creative website and build for <br> better website</h2>
+            <div class="card-actions justify-start">
+              ,div class="card-actions justify-start">
+              <a href="#" class="hover:bg-transparent hover:text-[#EBB884]">READ MORE<i class="fa-solid fa-arrow-trend-up ml-2"></i></a>
+            </div>
+          </div>
+        </div>
+
+
+
 
 
 

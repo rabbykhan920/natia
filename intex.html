@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Natia - Personal portfolio Template</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico"/>
+    <!-- favicon -->
     <!-- links -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -36,9 +39,9 @@
     <!-- header start -->
      <header style="background-image: url(img/bg-1.png);" class="">
      <!-- navbar -->
-     <nav>
+     <nav class="">
 
-        <div class="navbar text-white">
+        <div class="navbar lg:text-white">
             <div class="navbar-start">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -148,9 +151,7 @@
           <!-- hero part -->
         </section>
         <!-- My resume -->
-        <!-- Developer based -->
-
-        <!-- Developer based -->
+       
         <!-- My work -->
         <section class="lg:my-24 md:my-16 my-8">
           <!-- heading -->
@@ -272,22 +273,108 @@
 <!-- items -->
 </section>
          <!-- My Expertise -->
-         <!-- Clients feedback  -->
-         <section class="">
+        <!-- BLOG -->
+        <section class="lg:my-24 md:my-16 my-8  bg-[#F8F9F9] lg:py-28 md:py-16 py-7">
          <!-- heading -->
-         <div class="text-center md:mb-16 mb-8">
-            <h3 class="btn uppercase text-[#E9B179] font-semibold border border-[#E9B179] hover:border-[#E9B179] bg-transparent shadow-none hover:bg-transparent ">Testimonial</h3>
+         <div class="text-center md:mb-16 mb-8 ">
+          <h3 class="btn text-[#E9B179] font-semibold border border-[#E9B179] hover:border-[#E9B179] bg-transparent shadow-none hover:bg-transparent ">BLOG</h3>
+          
+          <h2 class="lg:text-4xl md:text-2xl text-xl font-bold md:py-6 py-3">Recent Blog</h2>
+      </div>
+          <!-- heading -->
+          <!-- iteam -->
+          <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-6 gap-3">
+
+            <!-- card-1 -->
+            <div class="card">
+              <figure>
+                <img
+                  src="img/blog-05.jpg"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Creative website and build for <br> better website</h2>
+                <div class="card-actions justify-start">
+                 
+                  <a href="#" class="hover:bg-transparent hover:text-[#EBB884]">READ MORE<i class="fa-solid fa-arrow-trend-up ml-2"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- card-1 -->
+            <!-- card-2 -->
+            <div class="card">
+              <figure>
+                <img
+                  src="img/blog-07.jpg"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">How to build support with your <br> best design client</h2>
+                <div class="card-actions justify-start">
+                 
+                  <a href="#" class="hover:bg-transparent hover:text-[#EBB884]">READ MORE<i class="fa-solid fa-arrow-trend-up ml-2"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- card-2 -->
+            <!-- card-3 -->
+            <div class="card">
+              <figure>
+                <img
+                  src="img/blog-09.jpg"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Smartest Applications for <br> Business</h2>
+                <div class="card-actions justify-start">
+                 
+                  <a href="#" class="hover:bg-transparent hover:text-[#EBB884]">READ MORE<i class="fa-solid fa-arrow-trend-up ml-2"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- card-3 -->
             
-            <h2 class="lg:text-4xl md:text-2xl text-xl font-bold md:py-6 py-3">Clients feedback</h2>
-        </div>
-            <!-- heading -->
-             <!--  -->
-             
-             
-        </section>
-         <!-- Clients feedback  -->
-         
-    </main>
+          </div>
+            <!-- iteam -->
+          </section>
+          <!-- BLOG -->
+        </main>
     <!-- main end -->
+    <!-- footer -->
+    <footer class="footer bg-black text-white text-base-content md:p-10 lg:py-24 md:py-16 py-8">
+      <nav>
+        <h6 class="text-xl font-semibold text-white">Address</h6>
+        <p class="text-base">Germany — 426 Eden Drive <br> Richmond, VA 23219</p>
+      </nav>
+      <nav>
+        <h6 class="text-xl font-semibold text-white">Say Hello</h6>
+        <a class="link link-hover text-base">hello@design.com</a>
+        <a class="link link-hover text-xl text-[#EBB884] font-bold">+61 214 585 17 69</a>
+        
+      </nav>
+      <nav>
+        <h6 class="text-xl font-semibold text-white">Social</h6>
+        <a class="link link-hover text-base">Facebook</a>
+        <a class="link link-hover text-base">Twitter</a>
+        <a class="link link-hover text-base">LinkedIn</a>
+        <a class="link link-hover text-base">Instagram</a>
+      </nav>
+      <form>
+        <h6 class="text-xl font-semibold text-white">Newsletter</h6>
+        <fieldset class="form-control w-80">
+          <label class="label">
+            
+          </label>
+          <div class="join">
+            <input
+              type="text"
+              placeholder="type your email"
+              class="input input-bordered join-item" />
+            <button class="btn bg-[#EBB884] border-none hover:bg-[#EBB884] join-item"><i class="fa-solid fa-arrow-right text-white"></i></button>
+          </div>
+        </fieldset>
+      </form>
+    </footer>
+    <!-- footer -->
 </body>
 </html>
